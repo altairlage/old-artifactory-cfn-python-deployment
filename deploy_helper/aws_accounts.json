@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "account": "012345678912",
+        "default-region": "us-west-2",
+        "default-infra-region": "us-west-2",
+        "dr-regions": {
+            "us-west-2": "us-east-1",
+            "eu-central-1": "eu-west-1",
+            "ap-northeast-1": "ap-southeast-1"
+        }
+    },
+    "qa": {
+        "account": "012345678912",
+        "default-region": "us-west-2",
+        "default-infra-region": "us-west-2",
+        "dr-regions": {
+            "us-west-2": "us-east-1",
+            "eu-central-1": "eu-west-1",
+            "ap-northeast-1": "ap-southeast-1"
+        }
+    },
+    "staging": {
+        "account": "012345678912",
+        "default-region": "eu-central-1",
+        "default-infra-region": "us-west-2",
+        "dr-regions": {
+            "us-west-2": "us-east-1",
+            "eu-central-1": "eu-west-1",
+            "ap-northeast-1": "ap-southeast-1"
+        }
+    },
+    "prod": {
+        "account": "012345678912",
+        "default-region": "us-west-2",
+        "default-infra-region": "us-west-2",
+        "dr-regions": {
+            "us-west-2": "us-east-1",
+            "eu-central-1": "eu-west-1",
+            "ap-northeast-1": "ap-southeast-1"
+        }
+    }
+}
